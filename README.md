@@ -11,5 +11,5 @@ winget install 'git.git'
 * ##### download the installer
 >Powershell:
 ```
-https://github.com/itsmagu/MinecraftSnow/releases/download/Main/install.ps1
+Invoke-WebRequest -Uri "https://github.com/itsmagu/MinecraftSnow/releases/download/Main/install.ps1" -OutFile (".\minecraftsnow\install.ps1") -UseBasicParsing
 ```

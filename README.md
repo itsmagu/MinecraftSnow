@@ -3,6 +3,7 @@
 ##### but i made a installer
 
 ### Windows:
+#### Needs git and MultiMC
 * ##### install git if you don't have that
 >Powershell:
 ```
@@ -16,3 +17,4 @@ Invoke-WebRequest -Uri "https://github.com/itsmagu/MinecraftSnow/releases/downlo
 cd "1.16.5"
 .\install.ps1
 ```
+##### Update by running install.ps1 again

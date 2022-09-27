@@ -15,5 +15,4 @@ mkdir .\1.16.5
 Invoke-WebRequest -Uri "https://github.com/itsmagu/MinecraftSnow/releases/download/Main/install.ps1" -OutFile (".\1.16.5\install.ps1") -UseBasicParsing
 cd "1.16.5"
 .\install.ps1
-
 ```

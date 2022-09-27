@@ -1,0 +1,7 @@
+/install.ps1
+/.minecraft/logs
+/.minecraft/mods
+/.minecraft/saves
+/.minecraft/screenshots
+/.minecraft/usercache.json
+/.minecraft/usernamecache.json

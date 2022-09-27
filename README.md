@@ -16,3 +16,4 @@ Invoke-WebRequest -Uri "https://github.com/itsmagu/MinecraftSnow/releases/downlo
 cd "1.16.5"
 .\install.ps1
 ```
+##### Update by running install.ps1 again

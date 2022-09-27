@@ -3,6 +3,7 @@
 ##### but i made a installer
 
 ### Windows:
+#### Needs git and MultiMC
 * ##### install git if you don't have that
 >Powershell:
 ```

@@ -4,26 +4,26 @@
 
 	[Settings."FPS Counter"]
 		"FPS Counter Distance" = 12
-		"Display FPS Counter (OFF, SIMPLE, ADVANCED)" = "ADVANCED"
+		"Display FPS Counter (OFF, SIMPLE, ADVANCED)" = "OFF"
 
 	[Settings.Misc]
 		"Cloud Height [Raw, Default 196]" = 196
-		"Render Fog" = true
+		"Render Fog" = false
 		#Allowed Values: WINDOWED, BORDERLESS, FULLSCREEN
 		"Use Borderless Fullscreen" = "FULLSCREEN"
-		"Chunk Fade In Quality (OFF, FAST, FANCY)" = "FANCY"
+		"Chunk Fade In Quality (OFF, FAST, FANCY)" = "OFF"
 
 	[Settings.Zoom]
 		"Cinematic Camera Mode (OFF, VANILLA, MULTIPLIED)" = "OFF"
 		"Zoom Scrolling Enabled" = true
 		"Zoom Transition Mode (TOGGLE, HOLD, PERSISTENT)" = "HOLD"
-		"Zoom Transition Mode (OFF, LINEAR, SMOOTH)" = "SMOOTH"
+		"Zoom Transition Mode (OFF, LINEAR, SMOOTH)" = "OFF"
 		"Lower Zoom Sensitivity" = true
-		"Zoom Overlay?" = true
+		"Zoom Overlay?" = false
 
 	[Settings."True Darkness"]
 		#Allowed Values: PITCH_BLACK, REALLY_DARK, DARK, DIM
-		"Darkness Setting (PITCH_BLACK, REALLY_DARK, DARK, DIM)" = "DARK"
+		"Darkness Setting (PITCH_BLACK, REALLY_DARK, DARK, DIM)" = "PITCH_BLACK"
 		"Use True Darkness" = true
 
 		[Settings."True Darkness".Advanced]

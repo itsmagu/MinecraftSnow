@@ -1,1 +1,21 @@
-{"bookGuiScale":0,"clickedVisualize":false,"bookData":{}}
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "psi:encyclopaedia_psionica": {
+      "viewedEntries": [
+        "psi:components/psigem"
+      ],
+      "bookmarks": [
+        {
+          "entry": "psi:components/psigem",
+          "page": 0
+        }
+      ],
+      "history": [
+        "psi:components/psigem"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

@@ -7,10 +7,10 @@
 /.minecraft/usernamecache.json
 /natives
 /.minecraft/resourcepacks
-.minecraft/XaeroWorldMap/New World/server_config.txt
-.minecraft/XaeroWorldMap/New World/null/.lock
-.minecraft/XaeroWorldMap/New World/null/dimension_config.txt
-.minecraft/XaeroWorldMap/New World/null/cache_1/-1_-1.xwmc.outdated
-.minecraft/XaeroWorldMap/New World/null/cache_1/-1_0.xwmc
-.minecraft/XaeroWorldMap/New World/null/cache_1/0_-1.xwmc
-.minecraft/XaeroWorldMap/New World/null/cache_1/0_0.xwmc
+/.minecraft/patchouli_books
+/.minecraft/coremods
+/.minecraft/schematics
+/.minecraft/server-resource-packs
+/.minecraft/shaderpacks
+/.minecraft/texturepacks
+/.minecraft/XaeroWorldMap

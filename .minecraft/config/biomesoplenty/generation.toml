@@ -8,7 +8,7 @@
 	enhance_vanilla_biomes = true
 	#The size of generated biomes.
 	#Allowed Values: TINY, SMALL, MEDIUM, LARGE, HUGE
-	biome_size = "MEDIUM"
+	biome_size = "LARGE"
 	#Type of temperature zones to use during biome placement.
 	#Allowed Values: LATITUDE, SMALL_ZONES, MEDIUM_ZONES, LARGE_ZONES, RANDOM
 	temperature_variation_scheme = "MEDIUM_ZONES"
@@ -16,5 +16,5 @@
 	use_bop_nether = true
 	#The size of generated rivers.
 	#Allowed Values: TINY, SMALL, MEDIUM, LARGE, HUGE
-	river_size = "MEDIUM"
+	river_size = "HUGE"
 

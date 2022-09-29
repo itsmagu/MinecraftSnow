@@ -3,18 +3,10 @@
 ##### but i made a installer
 
 ### Windows:
-#### Needs git and MultiMC
-* ##### install git if you don't have that
->Powershell:
-```
-winget install 'git.git'
-```
 * ##### download the installer
 >Powershell:
 ```
-mkdir .\1.16.5
-Invoke-WebRequest -Uri "https://github.com/itsmagu/MinecraftSnow/releases/download/Main/install.ps1" -OutFile (".\1.16.5\install.ps1") -UseBasicParsing
-cd "1.16.5"
-.\install.ps1
+Invoke-WebRequest -Uri "https://github.com/itsmagu/MinecraftSnow/releases/download/Main/install-packages.ps1" -OutFile (".\install-packages.ps1") -UseBasicParsing
+.\install-packages.ps1
 ```
 ##### Update by running install.ps1 again

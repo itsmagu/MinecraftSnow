@@ -103,7 +103,6 @@ Set-Location 'C:\MultiMC\instances\1.16.5\'
 Invoke-WebRequest -Uri "https://github.com/itsmagu/MinecraftSnow/releases/download/Main/install-3.ps1" -OutFile 'install-3.ps1' -UseBasicParsing
 Start-Process -Wait powershell {.\install-3.ps1}
 Write-Output "Fully Done"
-& 'C:\MultiMC\MultiMC.exe'
 Write-Output "Safe to Close"
 if ((Test-Path -Path 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\MinecraftSnow.lnk' -PathType Leaf)){
     Remove-Item -Recurse -Force 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\MinecraftSnow.lnk'
@@ -120,7 +119,7 @@ Write-Host -Object ('press any key... ' -f [System.Console]::ReadKey().Key.ToStr
 ```
 Clear-Host
 Write-Output "Starting:"
-if (Test-Path -Path .\.git) {
+if (Test-Path -Path '.\.git') {
   Write-Output "Cleaning for git"
   git stash
   Write-Output "Updating..."
@@ -128,13 +127,14 @@ if (Test-Path -Path .\.git) {
 } else {
   Write-Output "Downloading all files"
   git clone https://github.com/itsmagu/MinecraftSnow
-  Move-Item .\MinecraftSnow\.git .\
-  Move-Item .\MinecraftSnow\* .\
-  Remove-Item .\MinecraftSnow
-  mkdir .\.minecraft\mods
-}
-if (Test-Path -Path ".\.minecraft\mods") {
+  Move-Item '.\MinecraftSnow\.git' '.\'
+  Move-Item '.\MinecraftSnow\*' '.\'
+  Remove-Item '.\MinecraftSnow'
+  if (!(Test-Path -Path ".\.minecraft\mods")) {
+    mkdir '.\.minecraft\mods'
+  } else {
     Remove-Item ".\.minecraft\mods\**" -Recurse -Force
+  }
 }
 Write-Output ("reading " + $file_data.Count/2 + " installorders...")
 $file_data = Get-Content ./installorders

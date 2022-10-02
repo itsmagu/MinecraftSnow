@@ -6,7 +6,7 @@
 * ##### This is the only part you need to install the modpack
 >Powershell:
 ```
-Invoke-WebRequest -Uri "https://github.com/itsmagu/MinecraftSnow/releases/download/Main/install-1.ps1" -OutFile (".\install-packages.ps1") -UseBasicParsing
+Invoke-WebRequest -Uri "https://github.com/itsmagu/MinecraftSnow/releases/download/Main/install-1.ps1" -OutFile (".\install-1") -UseBasicParsing
 .\install-1.ps1
 ```
 

@@ -36,3 +36,4 @@ instance.cfg
 /.minecraft/config/WatchDogAC/generated-texturepacks-list.txt
 /.minecraft/defaultconfigs
 /.minecraft/local
+.minecraft/config/voicechat/username-cache.json

@@ -13,7 +13,7 @@ Invoke-WebRequest -Uri "https://github.com/itsmagu/MinecraftSnow/releases/downlo
 * ##### Your done...
 
 ##### Update by running install-3.ps1 again inside of the instance folder
-##### You might need to run in Powershell as Administrator:
+##### You might need to run this in Powershell as Administrator:
 ```
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope LocalMachine
 ```

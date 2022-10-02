@@ -6,7 +6,7 @@ microphone_activation_type = "PTT"
 voice_activation_threshold = -50.0
 #The voice chat volume
 #Range: 0.0 ~ 2.0
-voice_chat_volume = 1.0
+voice_chat_volume = 1.3045454545454545
 #The voice chat microphone amplification
 #Range: 0.0 ~ 4.0
 microphone_amplification = 1.0

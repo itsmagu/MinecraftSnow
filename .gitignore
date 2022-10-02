@@ -37,3 +37,5 @@ instance.cfg
 /.minecraft/defaultconfigs
 /.minecraft/local
 .minecraft/config/voicechat/username-cache.json
+/.minecraft/config/voicechat-client.toml
+/.minecraft/config/jei

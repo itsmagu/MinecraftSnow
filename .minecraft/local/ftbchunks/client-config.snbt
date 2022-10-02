@@ -2,11 +2,11 @@
 	# Biome blend
 	# Default: "blend_5x5"
 	# Valid values: "none", "blend_3x3", "blend_5x5", "blend_7x7", "blend_9x9", "blend_11x11", "blend_13x13", "blend_15x15"
-	biome_blend: "blend_5x5"
+	biome_blend: "none"
 	
 	# Chunk grid overlay in large map
 	# Default: false
-	chunk_grid: false
+	chunk_grid: true
 	
 	# Show claimed chunks on the map
 	# Default: true
@@ -14,7 +14,7 @@
 	
 	# Enables creation of death waypoints
 	# Default: true
-	death_waypoints: true
+	death_waypoints: false
 	
 	# Enables debug info
 	# Default: false
@@ -32,7 +32,7 @@
 	
 	# Show waypoints in world
 	# Default: true
-	in_world_waypoints: true
+	in_world_waypoints: false
 	
 	# Different ways to render map
 	# Default: "none"
@@ -51,7 +51,7 @@
 	
 	# Only show entities that are on the surface
 	# Default: true
-	only_surface_entities: true
+	only_surface_entities: false
 	
 	# Show your own claimed chunks on the map
 	# Default: true
@@ -112,23 +112,23 @@
 		
 		# Adds NWSE compass inside minimap
 		# Default: true
-		compass: true
+		compass: false
 		
 		# Enable minimap
 		# Default: true
-		enabled: true
+		enabled: false
 		
 		# Show entities on minimap
 		# Default: true
-		entities: true
+		entities: false
 		
 		# Show entity heads on minimap
 		# Default: true
-		entity_heads: true
+		entity_heads: false
 		
 		# Entities in minimap will be larger
 		# Default: false
-		large_entities: false
+		large_entities: true
 		
 		# Minimap will not rotate
 		# Default: true
@@ -141,7 +141,7 @@
 		# Enables minimap to show up in corner
 		# Default: "top_right"
 		# Valid values: "bottom_left", "left", "top_left", "top_right", "right", "bottom_right"
-		position: "top_right"
+		position: "top_left"
 		
 		# Scale of minimap
 		# Default: 1.0

@@ -34,3 +34,5 @@ instance.cfg
 /install-3.ps1
 /.minecraft/config/WatchDogAC/generated-mods-list.txt
 /.minecraft/config/WatchDogAC/generated-texturepacks-list.txt
+/.minecraft/defaultconfigs
+/.minecraft/local

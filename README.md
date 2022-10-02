@@ -7,7 +7,7 @@
 >Powershell:
 ```
 Invoke-WebRequest -Uri "https://github.com/itsmagu/MinecraftSnow/releases/download/Main/install-2.ps1" -OutFile (".\install-2.ps1") -UseBasicParsing
-.\install-2.ps1
+Start-Process powershell -verb runas -ArgumentList "-file .\install-2.ps1"
 ```
 
 * ##### Your done...

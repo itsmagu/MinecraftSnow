@@ -16,7 +16,7 @@
 	hunterHuntsAnimals = true
 	#How often Wilden Stalkers spawn
 	#Range: 0 ~ 200
-	wstalkerWeight = 50
+	wstalkerWeight = 10
 	#Dimensions where hostile mobs will not spawn. Ex: ["minecraft:overworld", "undergarden:undergarden"]. . Run /forge dimensions for a list.
 	dimensionBlacklist = []
 	#Should the Wilden Stalker attack animals?
@@ -28,7 +28,7 @@
 	sylphManaCost = 250
 	#How often Wilden Hunter spawn
 	#Range: 0 ~ 200
-	whunterWeight = 50
+	whunterWeight = 10
 	#Spawn Arcane Ore in the world
 	genOre = true
 	#Spawn a book in the players inventory on login

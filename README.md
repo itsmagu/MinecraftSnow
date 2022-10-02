@@ -33,6 +33,7 @@ Start-Process -Wait powershell {.\install-2.ps1}
 
 } else {
     echo 'Run as Administrator and try again'
+    Start-Process "https://youtu.be/dQw4w9WgXcQ"
 }
 ```
 
@@ -104,9 +105,14 @@ Start-Process -Wait powershell {.\install-3.ps1}
 Write-Output "Fully Done"
 & 'C:\MultiMC\MultiMC.exe'
 Write-Output "Safe to Close"
+if ((Test-Path -Path 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\MinecraftSnow.lnk' -PathType Leaf)){
+    Remove-Item -Recurse -Force 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\MinecraftSnow.lnk'
+}
 $WshShell = New-Object -comObject WScript.Shell
 $Shortcut = $WshShell.CreateShortcut("C:\ProgramData\Microsoft\Windows\Start Menu\Programs\MinecraftSnow.lnk")
-$Shortcut.TargetPath = "C:\MultiMC\MultiMC.exe -l 1.16.5"
+$Shortcut.TargetPath = "C:\MultiMC\MultiMC.exe"
+$Shortcut.WorkingDirectory = 'C:\MultiMC\'
+$Shortcut.Arguments ="-l 1.16.5"
 $Shortcut.Save()
 Write-Host -Object ('press any key... ' -f [System.Console]::ReadKey().Key.ToString());
 ```

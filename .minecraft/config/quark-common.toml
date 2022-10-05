@@ -230,21 +230,21 @@
 [management]
 	"Chests In Boats" = true
 	"Inventory Sorting" = true
-	"Shulker Box Right Click" = true
+	"Shulker Box Right Click" = false
 	"Hotbar Changer" = true
 	"Item Sharing" = true
-	"Right Click Armor" = true
-	"Easy Transfering" = true
+	"Right Click Armor" = false
+	"Easy Transfering" = false
 
 	[management.inventory_sorting]
 		#Play a click when sorting inventories using keybindings
 		"Satisfying Click" = true
 		"Enable Chests" = true
-		"Enable Player Inventory In Chests" = true
+		"Enable Player Inventory In Chests" = false
 		"Enable Player Inventory" = true
 
 	[management.easy_transfering]
-		"Enable Shift Lock" = true
+		"Enable Shift Lock" = false
 
 	[management.item_sharing]
 		"Render Items In Chat" = true
@@ -452,7 +452,7 @@
 		#Allowed values: (0,)
 		"Afk Time" = 2400
 		#Allowed values: (0,1]
-		"Percent Req" = 1.0
+		"Percent Req" = 0.6
 
 	[tweaks.emotes]
 		#The enabled default emotes. Remove from this list to disable them. You can also re-order them, if you feel like it.

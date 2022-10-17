@@ -6,6 +6,7 @@
 * ##### One command install :
 >Powershell:
 ```
+cd $HOME\Downloads
 Invoke-WebRequest -Uri "https://github.com/itsmagu/MinecraftSnow/releases/download/Main/install-2.ps1" -OutFile (".\install-2.ps1") -UseBasicParsing
 Start-Process powershell -verb runas -ArgumentList "-file .\install-2.ps1"
 ```

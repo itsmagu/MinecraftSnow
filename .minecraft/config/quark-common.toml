@@ -1947,7 +1947,7 @@
 	"Totem Of Holding" = false
 	Backpack = true
 	Crate = true
-	"Matrix Enchanting" = true
+	"Matrix Enchanting" = false
 	Magnets = true
 	Pipes = true
 

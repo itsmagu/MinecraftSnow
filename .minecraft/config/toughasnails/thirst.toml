@@ -3,26 +3,26 @@
 [general]
 	#The threshold at which exhaustion causes a reduction in hydration and the thirst bar.
 	#Range: 0.0 ~ 1.7976931348623157E308
-	exhaustion_threshold = 8.0
+	exhaustion_threshold = 4.0
 
 [drink_options]
 	#Hydration restored from drinking with hands.
 	#Range: 0.0 ~ 1.7976931348623157E308
-	hand_drinking_hydration = 0.1
+	hand_drinking_hydration = 0.5
 	#Thirst restored from drinking with hands.
 	#Range: 0 ~ 20
 	hand_drinking_thirst = 4
 
 	#Effects of drinks from Vanilla, Tough As Nails and other mods.
 	[[drink_options.drink_entries]]
-		poison_chance = 0.25
+		poison_chance = 0.0
 		thirst = 2
 		hydration = 0.2
 		location = "minecraft:potion"
 
 	[[drink_options.drink_entries]]
-		poison_chance = 0.75
-		thirst = 1
+		poison_chance = 0.5
+		thirst = 2
 		hydration = 0.1
 		location = "toughasnails:dirty_water_bottle"
 
@@ -34,14 +34,20 @@
 
 	[[drink_options.drink_entries]]
 		poison_chance = 0.0
-		thirst = 3
+		thirst = 8
 		hydration = 0.4
 		location = "toughasnails:purified_water_bottle"
 
 	[[drink_options.drink_entries]]
 		poison_chance = 0.0
-		thirst = 3
+		thirst = 6
 		hydration = 0.4
+		location = "minecraft:honey_bottle"
+
+	[[drink_options.drink_entries]]
+		poison_chance = 0.0
+		thirst = 4
+		hydration = 0.8
 		location = "toughasnails:purified_water_canteen"
 
 	[[drink_options.drink_entries]]

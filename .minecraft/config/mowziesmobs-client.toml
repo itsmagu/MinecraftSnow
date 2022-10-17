@@ -9,5 +9,5 @@
 	#Play boss battle themes during boss encounters.
 	play_boss_music = true
 	#Use custom player animations.
-	custom_player_anims = true
+	custom_player_anims = false
 

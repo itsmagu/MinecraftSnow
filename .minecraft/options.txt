@@ -33,7 +33,7 @@ graphicsMode:1
 ao:2
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","mod_resources","quark:emote_resources","file/Infernal Resources.zip","file/Quark Programmer Art.zip","file/ResPak"]
+resourcePacks:["vanilla","mod_resources","quark:emote_resources","file/Infernal Resources.zip","file/Quark Programmer Art.zip","file/ResPak","file/Unity-1.16.X-Dark-0.7.1"]
 incompatibleResourcePacks:["quark:emote_resources"]
 lastServer:78.71.170.153:25565
 lang:en_us

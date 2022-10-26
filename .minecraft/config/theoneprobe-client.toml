@@ -8,7 +8,7 @@ timeout = 300
 waitingForServerTimeout = 2000
 #The maximum packet size to send an itemstack from client to server. Reduce this if you have issues with network lag caused by TOP
 #Range: -1 ~ 32768
-maxPacketToServer = 20000
+maxPacketToServer = 2000
 #Distance at which the probe works
 #Range: 0.1 ~ 200.0
 probeDistance = 6.0

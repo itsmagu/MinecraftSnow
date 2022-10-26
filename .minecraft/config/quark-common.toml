@@ -1945,7 +1945,7 @@
 
 [oddities]
 	"Totem Of Holding" = false
-	Backpack = true
+	Backpack = false
 	Crate = true
 	"Matrix Enchanting" = false
 	Magnets = true
